@@ -17,7 +17,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DHWANI - the soul",
+  title: "Inyahouse Reiki",
   description: "Find Your Inner Resonance",
 };
 
