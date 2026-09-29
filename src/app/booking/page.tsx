@@ -173,7 +173,7 @@ export default function BookingPage() {
                       name="service"
                       className="sr-only"
                       checked={service.id === s.id}
-                      onChange={() => setService(s)}
+                      onChange={() => setService({ title: s.title, price: s.price, duration: s.time, id: s.id })}
                     />
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <div className="flex flex-col">
